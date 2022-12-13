@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,42 @@
   <title>Progress Steps</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
+    <div class="floatbox">
+      <div class="item">
+        <div class="content">
+          <p style="transform: translate(-13px, 0px);">1</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <p style="transform: translate(1rem, 0px);">2</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <p style="transform: translate(3rem, 0px);">3</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <p style="transform: translate(5rem, 0px);">4</p>
+        </div>
+      </div>
+    </div>
+    
     <div class="bar">
-
       <progress id="health" value="0" max="100"> HELLO</progress>
     </div>
+    <br>
     <div class="btn">
-
-      <button class="button_next" onclick="next()" >Next</button>
-  
- 
+      <button class="button_next" onclick="next()">Next</button>
       <button class="button_pre" onclick="pre()">Pre</button>
-      
     </div>
-
   </div>
   <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
-hdd
