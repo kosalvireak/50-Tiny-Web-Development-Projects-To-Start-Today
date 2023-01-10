@@ -3,5 +3,6 @@ const btn = document.querySelector('.search_button')
 const input = document.querySelector('.search_input')
 
 btn.addEventListener('click', () => {
-    search.classList.toggle('smaller')
+    input.classList.toggle('smaller')
+    input.focus()
 })
